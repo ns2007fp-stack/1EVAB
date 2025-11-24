@@ -2,6 +2,9 @@ package org.example;
 
 import java.util.Scanner;
 
+/**@Sophia Forero/
+ *menu
+ */
 public class RepoFile {
 
     public static void main(String[] args) {
@@ -42,18 +45,24 @@ public class RepoFile {
             }
         }
     }
-
+    /**@Sophia Forero/
+     *menu casos
+     */
     private static boolean isSalir() {
         boolean salir;
         salir = true;
         return salir;
     }
-
+    /**@Sophia Forero/
+     *salir del menu
+     */
     private static void eliminarnombre(Main repo, Scanner sc) {
         System.out.print(Constantes.ELIMINAR_NOMBRE);
         repo.eliminarPorNombre(sc.nextLine());
     }
-
+    /**@Sophia Forero/
+     *scanner
+     */
     private static void cumpleaños(Scanner sc, Main repo) {
         System.out.print(Constantes.NOMBRE + " ");
         String nombre = sc.nextLine();
@@ -63,13 +72,17 @@ public class RepoFile {
         int m = Integer.parseInt(sc.nextLine());
         repo.addCumple(new cumpleAgenda(nombre, d, m));
     }
-
+    /**@Sophia Forero/
+     *scanner
+     */
     private static void dias(Main repo, Scanner sc) {
         System.out.print(Constantes.NOMBRE + " ");
         cumpleAgenda c = repo.buscarPorNombre(sc.nextLine());
         if (c != null) System.out.println(c.getNombre());
     }
-
+    /**@Sophia Forero/
+     *scanner
+     */
     private static void dias(Scanner sc, Main repo) {
         System.out.print(Constantes.DÍA + " ");
         int dia = Integer.parseInt(sc.nextLine());
@@ -77,13 +90,17 @@ public class RepoFile {
             System.out.println(c.getNombre());
         }
     }
-
+    /**@Sophia Forero/
+     *scanner
+     */
     private static void agenda(Main repo) {
         for (cumpleAgenda c : repo.getLista()) {
             System.out.println(c.getNombre());
         }
     }
-
+    /**@Sophia Forero/
+     *scanner
+     */
     private static void menu() {
         System.out.println(Constantes.AGENDA);
         System.out.println(Constantes.LISTAR);
@@ -94,3 +111,6 @@ public class RepoFile {
         System.out.println(Constantes.SALIR);
     }
 }
+/**@Sophia Forero/
+ *imprimir menu
+ */

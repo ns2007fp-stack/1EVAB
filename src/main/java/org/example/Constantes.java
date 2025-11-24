@@ -1,5 +1,8 @@
 package org.example;
 
+/**@Sophia Forero/
+ * agenda
+ */
 public class Constantes {
     public static final String AGENDA = "\n=== AGENDA ===";
     public static final String LISTAR = "1. Listar";
