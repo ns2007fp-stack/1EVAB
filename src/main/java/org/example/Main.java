@@ -1,7 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
-/**@Sophia Forero/
+/**@autor Sophia Forero/
  *lista
  */
 import java.util.List;
@@ -13,13 +13,13 @@ public class Main {
     public List<cumpleAgenda> getLista() {
         return Lista;
     }
-    /**@Sophia Forero/
+    /**@autor Sophia Forero/
      *lista
      */
     public void addCumple(cumpleAgenda cumple) {
         Lista.add(cumple);
     }
-    /**@Sophia Forero/
+    /**@autor Sophia Forero/
      *lista
      */
     public cumpleAgenda buscarPorNombre(String nombre) {
@@ -30,7 +30,7 @@ public class Main {
         }
         return null;
     }
-    /**@Sophia Forero/
+    /**@autor Sophia Forero/
      *lista
      */
     public List<cumpleAgenda> buscarPorDia(int dia) {
@@ -42,7 +42,7 @@ public class Main {
         }
         return resultado;
     }
-    /**@Sophia Forero/
+    /**@autor Sophia Forero/
      *lista
      */
     public boolean eliminarPorNombre(String nombre) {
@@ -54,6 +54,6 @@ public class Main {
         return false;
     }
 }
-/**@Sophia Forero/
+/**@autor Sophia Forero/
  *lista
  */

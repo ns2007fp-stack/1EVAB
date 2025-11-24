@@ -1,6 +1,6 @@
 package org.example;
 
-/**@Sophia Forero/
+/**@autor Sophia Forero/
  *cumple
  */
 public class cumpleAgenda {
@@ -9,7 +9,7 @@ public class cumpleAgenda {
     private int Dia;
     private int Mes;
 
-    /**@Sophia Forero*
+    /**@autor Sophia Forero*
      * orden agenda
      * @param nombre
      * @param dia
@@ -21,7 +21,7 @@ public class cumpleAgenda {
         this.Mes = mes;
     }
 
-    /**@Sophia Forero*
+    /**@autor Sophia Forero*
      * entero nombre
      * @return
      */
@@ -29,7 +29,7 @@ public class cumpleAgenda {
         return Nombre;
     }
 
-    /**@Sophia Forero*
+    /**@autor Sophia Forero*
      *representar texto nombre
      * @return
      */
@@ -37,7 +37,7 @@ public class cumpleAgenda {
         return Dia;
     }
 
-    /**@Sophia Forero
+    /**@autor Sophia Forero
      *representar texto dia
      * @return
      */
@@ -45,6 +45,6 @@ public class cumpleAgenda {
         return Mes;
     }
 }
-/**@Sophia Forero*
+/**@autor Sophia Forero*
  * representartextomes
  */

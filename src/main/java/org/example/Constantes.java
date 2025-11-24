@@ -1,6 +1,6 @@
 package org.example;
 
-/**@Sophia Forero/
+/**@autor Sophia Forero/
  * agenda
  */
 public class Constantes {
