@@ -12,15 +12,15 @@ public class cumpleAgenda {
         this.Mes = mes;
     }
 
-    public String GetNombre() {
+    public String getNombre() {
         return Nombre;
     }
 
-    public int GetDia() {
+    public int getDia() {
         return Dia;
     }
 
-    public int GetMes() {
+    public int getMes() {
         return Mes;
     }
 }
